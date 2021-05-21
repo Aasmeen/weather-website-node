@@ -16,8 +16,8 @@ input_location.addEventListener('submit',(e)=>{
             }
             else
             {
-                error_string.textContent = 'Address:'+data.address
-                output_string.textContent = "Temperature:"+data.forecast_data.temperature
+                error_string.textContent = 'Address: '+data.address
+                output_string.textContent = data.forecast_data
             }      
         })
     })
